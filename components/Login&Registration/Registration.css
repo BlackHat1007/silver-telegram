@@ -1,0 +1,20 @@
+/* .regData{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+} */
+form#formReg {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+div.popupBox {
+     display: flex;
+     flex-direction: column;
+     height: 83%;
+     width: 45%;
+}

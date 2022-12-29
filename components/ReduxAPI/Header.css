@@ -1,0 +1,18 @@
+.header-container {
+    height: 48px;
+    background-color: goldenrod;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+}
+
+/* 
+.header-container>Link {
+    color: white !important;
+} */
+#root>div.header-container>div>a {
+    color: white;
+    text-decoration: none;
+}

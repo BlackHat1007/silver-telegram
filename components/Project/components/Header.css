@@ -1,0 +1,39 @@
+.header-container {
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    font-weight: bolder;
+    padding: 0px 15px;
+
+}
+
+.footer-container {
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    font-weight: bolder;
+    padding: 0px 15px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.header-right-panel {
+    display: flex;
+    gap: 45px;
+}
+
+#root>div>div.header-container>div.header-right-panel>div>a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-center-panel {
+    width: 328px;
+}

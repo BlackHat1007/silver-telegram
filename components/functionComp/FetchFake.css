@@ -1,0 +1,29 @@
+.main_div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+.product_div {
+    border: 2px solid orange;
+    margin: 10px;
+    /* margin-top: 10px;
+    margin-left: 10px; */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: -2px 2px 5px orange;
+    color: rgb(6, 58, 58);
+}
+
+#search {
+    border: 2px solid orangered;
+    box-shadow: -2px 2px 5px black;
+    outline-style: none;
+    /* background-color: blueviolet; */
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    color: tomato;
+    font-size: 20px;
+    font-weight: bolder;
+}

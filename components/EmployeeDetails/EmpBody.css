@@ -1,0 +1,38 @@
+.outerdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.data {
+    color: greenyellow;
+}
+
+.tablemap {
+    /* min-width: 75%; */
+    padding: 3px;
+    width: 900px;
+    color: brown;
+    font-weight: bold
+}
+
+.tablemap th {
+    background-color: rgb(105, 143, 16);
+    margin: 5px;
+    color: whitesmoke;
+    height: 35px;
+}
+
+td {
+    padding-left: 20px;
+}
+
+.tablemap tr:nth-child(odd) {
+    background-color: gainsboro;
+}
+
+.tabbtn {
+    display: flex;
+    justify-content: space-evenly;
+}

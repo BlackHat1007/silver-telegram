@@ -1,0 +1,103 @@
+#root {
+    /* background: linear-gradient(60deg, rgba(255, 247, 247, 0.856), rgb(69, 192, 130), #333); */
+    background-color: #f0f2f5;
+
+    height: 100vh;
+    background-image: url(../images/black2.jfif);
+}
+
+#mainContainer_home {
+    min-height: 100%;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+div#popupButtons>button {
+    margin: 0px 10px;
+    height: 30px;
+}
+
+div#mainContainer_home>div.popupBox {
+    position: absolute;
+
+
+    border-radius: 16px;
+    border-style: none;
+
+    background: linear-gradient(60deg, rgba(1, 225, 255, 0.856), rgb(69, 192, 130), #333);
+    box-shadow: 5px 5px 10px black;
+}
+
+.popupBox>.backButton {
+    width: 50px;
+}
+
+
+
+input {
+    margin: 10px 0px;
+    width: 30vw;
+    border-radius: 7px;
+    height: 35px;
+    box-shadow: 3px 3px 5px #aaa;
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2%;
+    outline: none;
+}
+
+input:hover {
+    box-shadow: -3px -3px 5px #83f52c;
+}
+
+button {
+    height: 35px;
+    margin: 0px 10px;
+    border-radius: 7px;
+    width: 100px;
+    border-style: none;
+    box-shadow: 1px 2px 3px black;
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 3px 3px 5px turquoise;
+
+}
+
+
+.errorMsg {
+    color: #c82f2c;
+}
+
+/* #mainContainer_home>div.popupBox>form>span.backButton>button {} */
+
+#mainContainer_home>div.popupBox>button {
+    position: relative;
+    top: 5px;
+    left: 0px;
+
+}
+
+h1 {
+    color: rgb(3, 80, 35);
+    text-shadow: 2px 3px 5px rgb(180, 235, 77);
+}
+
+#reg_DOB {
+    color: #8b758b;
+
+}
+
+/* 
+body {
+    background-image: url(../images/black2.jfif);
+} */

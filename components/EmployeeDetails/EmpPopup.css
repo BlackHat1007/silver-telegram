@@ -1,0 +1,36 @@
+#popup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px grey;
+    border-radius: 5px;
+    background: linear-gradient(54deg, rgb(210, 255, 31) 0.00%, rgb(123, 194, 85) 45.00%, rgb(227, 144, 43) 100.00%);
+}
+
+#popback {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.185);
+    height: 635px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input {
+    height: 25px;
+    width: 280px;
+}
+
+button {
+    margin-right: 30px;
+}

@@ -1,0 +1,22 @@
+/* .loginData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+} */
+form#formLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.popupBox {
+    display: flex;
+    flex-direction: column;
+
+    height: 83%;
+    width: 45%;
+}
